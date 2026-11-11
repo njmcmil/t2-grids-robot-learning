@@ -1,0 +1,15 @@
+.venv/
+LIBERO/
+logs/
+logs~/
+__pycache__/
+*.pyc
+.env
+data/
+datasets/
+checkpoints/
+*.hdf5
+*.h5
+*.pt
+*.pth
+*.ckpt
