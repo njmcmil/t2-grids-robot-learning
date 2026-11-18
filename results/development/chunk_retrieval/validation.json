@@ -1,0 +1,30 @@
+{
+  "checkpoint": "fea5d3a069d064f8283971c61f7351d4daec59f49e62d039fc9e78ad4f4d8974",
+  "chunk": 8,
+  "rollouts": [
+    {
+      "task": "put_the_bowl_on_the_plate",
+      "episode": "demo_32",
+      "success": true,
+      "steps": 88
+    },
+    {
+      "task": "put_the_bowl_on_the_plate",
+      "episode": "demo_15",
+      "success": true,
+      "steps": 71
+    },
+    {
+      "task": "put_the_bowl_on_the_stove",
+      "episode": "demo_27",
+      "success": true,
+      "steps": 86
+    },
+    {
+      "task": "put_the_bowl_on_the_stove",
+      "episode": "demo_43",
+      "success": true,
+      "steps": 71
+    }
+  ]
+}

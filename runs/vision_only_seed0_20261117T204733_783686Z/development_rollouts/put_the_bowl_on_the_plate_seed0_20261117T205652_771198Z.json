@@ -1,0 +1,32 @@
+{
+  "purpose": "development rollout; training-scene start",
+  "task": "put_the_bowl_on_the_plate",
+  "source_episode": "demo_5",
+  "source_state_index": 1,
+  "seed": 0,
+  "checkpoint_epoch": 7,
+  "checkpoint_file": "runs/vision_only_seed0_20261117T204733_783686Z/best_model.pt",
+  "success": false,
+  "steps": 300,
+  "timeout_steps": 300,
+  "termination": "timeout",
+  "steps_with_clipped_actions": 38,
+  "action_low": [
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0
+  ],
+  "action_high": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

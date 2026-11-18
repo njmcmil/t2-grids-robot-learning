@@ -1,0 +1,222 @@
+[
+  {
+    "variant": "grids_film",
+    "seed": 1,
+    "task": "put_the_bowl_on_the_plate",
+    "trials": 20,
+    "successes": 10,
+    "rate": 0.5,
+    "query_median_ms": 3.8485340010083746,
+    "query_p95_ms": 4.905067002255237,
+    "tokens_per_camera": 16
+  },
+  {
+    "variant": "grids_film",
+    "seed": 1,
+    "task": "put_the_bowl_on_the_stove",
+    "trials": 20,
+    "successes": 18,
+    "rate": 0.9,
+    "query_median_ms": 3.8187290010682773,
+    "query_p95_ms": 5.1018523998209275,
+    "tokens_per_camera": 16
+  },
+  {
+    "variant": "dense",
+    "seed": 1,
+    "task": "put_the_bowl_on_the_plate",
+    "trials": 20,
+    "successes": 16,
+    "rate": 0.8,
+    "query_median_ms": 3.716770497703692,
+    "query_p95_ms": 4.981762701936532,
+    "tokens_per_camera": 256
+  },
+  {
+    "variant": "dense",
+    "seed": 1,
+    "task": "put_the_bowl_on_the_stove",
+    "trials": 20,
+    "successes": 17,
+    "rate": 0.85,
+    "query_median_ms": 3.6878384998999536,
+    "query_p95_ms": 4.905773999780649,
+    "tokens_per_camera": 256
+  },
+  {
+    "variant": "uniform",
+    "seed": 0,
+    "task": "put_the_bowl_on_the_plate",
+    "trials": 20,
+    "successes": 12,
+    "rate": 0.6,
+    "query_median_ms": 3.456819998973515,
+    "query_p95_ms": 4.538867000519531,
+    "tokens_per_camera": 16
+  },
+  {
+    "variant": "uniform",
+    "seed": 0,
+    "task": "put_the_bowl_on_the_stove",
+    "trials": 20,
+    "successes": 17,
+    "rate": 0.85,
+    "query_median_ms": 3.451779501119745,
+    "query_p95_ms": 4.642439798226405,
+    "tokens_per_camera": 16
+  },
+  {
+    "variant": "grids",
+    "seed": 0,
+    "task": "put_the_bowl_on_the_plate",
+    "trials": 20,
+    "successes": 9,
+    "rate": 0.45,
+    "query_median_ms": 3.675233499961905,
+    "query_p95_ms": 4.743261000839993,
+    "tokens_per_camera": 16
+  },
+  {
+    "variant": "grids",
+    "seed": 0,
+    "task": "put_the_bowl_on_the_stove",
+    "trials": 20,
+    "successes": 16,
+    "rate": 0.8,
+    "query_median_ms": 3.6557860003085807,
+    "query_p95_ms": 4.882704298506724,
+    "tokens_per_camera": 16
+  },
+  {
+    "variant": "dense",
+    "seed": 0,
+    "task": "put_the_bowl_on_the_plate",
+    "trials": 20,
+    "successes": 14,
+    "rate": 0.7,
+    "query_median_ms": 3.6763919997611083,
+    "query_p95_ms": 4.887036600121064,
+    "tokens_per_camera": 256
+  },
+  {
+    "variant": "dense",
+    "seed": 0,
+    "task": "put_the_bowl_on_the_stove",
+    "trials": 20,
+    "successes": 19,
+    "rate": 0.95,
+    "query_median_ms": 3.6742200009030057,
+    "query_p95_ms": 5.012466752486944,
+    "tokens_per_camera": 256
+  },
+  {
+    "variant": "grids",
+    "seed": 1,
+    "task": "put_the_bowl_on_the_plate",
+    "trials": 20,
+    "successes": 8,
+    "rate": 0.4,
+    "query_median_ms": 3.6750764993485063,
+    "query_p95_ms": 4.7959891984646665,
+    "tokens_per_camera": 16
+  },
+  {
+    "variant": "grids",
+    "seed": 1,
+    "task": "put_the_bowl_on_the_stove",
+    "trials": 20,
+    "successes": 15,
+    "rate": 0.75,
+    "query_median_ms": 3.6688740001409315,
+    "query_p95_ms": 4.880559998127865,
+    "tokens_per_camera": 16
+  },
+  {
+    "variant": "uniform",
+    "seed": 1,
+    "task": "put_the_bowl_on_the_plate",
+    "trials": 20,
+    "successes": 13,
+    "rate": 0.65,
+    "query_median_ms": 3.456894999544602,
+    "query_p95_ms": 4.744467602722578,
+    "tokens_per_camera": 16
+  },
+  {
+    "variant": "uniform",
+    "seed": 1,
+    "task": "put_the_bowl_on_the_stove",
+    "trials": 20,
+    "successes": 16,
+    "rate": 0.8,
+    "query_median_ms": 3.445530001044972,
+    "query_p95_ms": 4.663353601063136,
+    "tokens_per_camera": 16
+  },
+  {
+    "variant": "grids_film",
+    "seed": 0,
+    "task": "put_the_bowl_on_the_plate",
+    "trials": 20,
+    "successes": 9,
+    "rate": 0.45,
+    "query_median_ms": 3.8192489992070477,
+    "query_p95_ms": 5.078196099566412,
+    "tokens_per_camera": 16
+  },
+  {
+    "variant": "grids_film",
+    "seed": 0,
+    "task": "put_the_bowl_on_the_stove",
+    "trials": 20,
+    "successes": 14,
+    "rate": 0.7,
+    "query_median_ms": 3.8294339974527247,
+    "query_p95_ms": 5.137508997722759,
+    "tokens_per_camera": 16
+  },
+  {
+    "variant": "vision_only",
+    "seed": 0,
+    "task": "put_the_bowl_on_the_plate",
+    "trials": 20,
+    "successes": 9,
+    "rate": 0.45,
+    "query_median_ms": 3.0791140015935525,
+    "query_p95_ms": 4.09552319906652,
+    "tokens_per_camera": 256
+  },
+  {
+    "variant": "vision_only",
+    "seed": 0,
+    "task": "put_the_bowl_on_the_stove",
+    "trials": 20,
+    "successes": 6,
+    "rate": 0.3,
+    "query_median_ms": 3.056854500755435,
+    "query_p95_ms": 3.950181751861237,
+    "tokens_per_camera": 256
+  },
+  {
+    "variant": "vision_only",
+    "seed": 1,
+    "task": "put_the_bowl_on_the_plate",
+    "trials": 20,
+    "successes": 8,
+    "rate": 0.4,
+    "query_median_ms": 3.053122003620956,
+    "query_p95_ms": 4.0861431989469565,
+    "tokens_per_camera": 256
+  },
+  {
+    "variant": "vision_only",
+    "seed": 1,
+    "task": "put_the_bowl_on_the_stove",
+    "trials": 20,
+    "successes": 8,
+    "rate": 0.4,
+    "query_median_ms": 3.043220000108704,
+    "query_p95_ms": 4.0353899996262035,
+    "tokens_per_camera": 256
+  }
+]

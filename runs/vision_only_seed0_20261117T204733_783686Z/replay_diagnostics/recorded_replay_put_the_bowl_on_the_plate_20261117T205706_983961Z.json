@@ -1,0 +1,13 @@
+{
+  "purpose": "recorded-action replay; not learned policy",
+  "task": "put_the_bowl_on_the_plate",
+  "source_episode": "demo_5",
+  "source_state_index": 1,
+  "seed": 0,
+  "success": true,
+  "steps": 72,
+  "termination": "success",
+  "state_comparisons": 72,
+  "mean_state_error": 0.9080929872608032,
+  "max_state_error": 7.004072557480127
+}

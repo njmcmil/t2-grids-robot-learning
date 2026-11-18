@@ -1,0 +1,31 @@
+{
+  "architecture": "compact_attention_v1",
+  "variant": "vision_only",
+  "training_seed": 1,
+  "epochs": 10,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "gradient_clip_norm": 10.0,
+  "tokens_per_camera": 256,
+  "vocab": {
+    "<pad>": 0,
+    "<unk>": 1,
+    "bowl": 2,
+    "on": 3,
+    "plate": 4,
+    "put": 5,
+    "stove": 6,
+    "the": 7
+  },
+  "manifest_sha256": "9b20dbbc186b5bbeea8b1038eb21da30331e3b27210eab601e14c1d3ee18b65f",
+  "parameters": 71719,
+  "smoke_test": false,
+  "torch_version": "2.14.1+cu130",
+  "device": "cuda",
+  "cuda_version": "13.0",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "language_encoder": "randomly initialized word embedding + GRU; no pretrained weights",
+  "vision_encoder": "randomly initialized compact CNN; no pretrained weights",
+  "git_revision": "c4a2d70e434c6fd26b915f2d1f99bab4f8131bb8",
+  "git_dirty": true
+}

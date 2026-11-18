@@ -1,0 +1,29 @@
+{
+  "case_id": "put_the_bowl_on_the_stove_benchmark_35",
+  "task": "put_the_bowl_on_the_stove",
+  "seed": 2046,
+  "success": true,
+  "steps": 83,
+  "query_ms": [
+    4.595917998813093,
+    3.2080050004879013,
+    3.4102770005119964,
+    3.454413999861572,
+    3.5556700022425503,
+    4.32059399827267,
+    3.302152999822283,
+    3.3616960026847664,
+    3.552625003067078,
+    3.3635699983278755,
+    3.4567549992061686
+  ],
+  "tokens_per_camera": 16,
+  "identity": {
+    "checkpoint": "2d28a167f96acdce13a4a4839c0f33f57208e21488b912e43872068e8e43fcac",
+    "protocol": "ac3ed611fc75450aa48a7d6b4f6369d04af641fe886897760db3592ece955dab",
+    "implementation": "4132b02290d5977acad3d65fa10bc920094902f9b87f20e8d3fc6ec02ec96980",
+    "manifest": "9b20dbbc186b5bbeea8b1038eb21da30331e3b27210eab601e14c1d3ee18b65f"
+  },
+  "variant": "uniform",
+  "training_seed": 1
+}

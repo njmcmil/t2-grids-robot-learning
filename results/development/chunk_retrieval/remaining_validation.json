@@ -1,0 +1,54 @@
+{
+  "checkpoint": "fea5d3a069d064f8283971c61f7351d4daec59f49e62d039fc9e78ad4f4d8974",
+  "chunk": 8,
+  "rollouts": [
+    {
+      "task": "put_the_bowl_on_the_plate",
+      "episode": "demo_3",
+      "success": true,
+      "steps": 76
+    },
+    {
+      "task": "put_the_bowl_on_the_plate",
+      "episode": "demo_44",
+      "success": true,
+      "steps": 81
+    },
+    {
+      "task": "put_the_bowl_on_the_plate",
+      "episode": "demo_30",
+      "success": true,
+      "steps": 85
+    },
+    {
+      "task": "put_the_bowl_on_the_plate",
+      "episode": "demo_10",
+      "success": true,
+      "steps": 79
+    },
+    {
+      "task": "put_the_bowl_on_the_stove",
+      "episode": "demo_44",
+      "success": true,
+      "steps": 83
+    },
+    {
+      "task": "put_the_bowl_on_the_stove",
+      "episode": "demo_3",
+      "success": true,
+      "steps": 78
+    },
+    {
+      "task": "put_the_bowl_on_the_stove",
+      "episode": "demo_7",
+      "success": true,
+      "steps": 80
+    },
+    {
+      "task": "put_the_bowl_on_the_stove",
+      "episode": "demo_23",
+      "success": true,
+      "steps": 74
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "purpose": "recorded-action replay; not learned policy",
+  "task": "put_the_bowl_on_the_stove",
+  "source_episode": "demo_34",
+  "source_state_index": 1,
+  "seed": 0,
+  "success": false,
+  "steps": 97,
+  "termination": "recorded_actions_exhausted",
+  "state_comparisons": 96,
+  "mean_state_error": 0.6465122662780599,
+  "max_state_error": 9.697032039901131
+}

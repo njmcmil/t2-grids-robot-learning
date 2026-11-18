@@ -1,0 +1,67 @@
+[
+  {
+    "variant": "dense",
+    "status": "complete",
+    "mean_success_rate": 0.037500000000000006,
+    "seed_rates": [
+      0.025,
+      0.05
+    ],
+    "between_seed_sample_std": 0.01767766952966369,
+    "success_target": 0.5,
+    "target_met": false,
+    "latency_target_met": true
+  },
+  {
+    "variant": "grids",
+    "status": "complete",
+    "mean_success_rate": 0.1,
+    "seed_rates": [
+      0.15,
+      0.05
+    ],
+    "between_seed_sample_std": 0.07071067811865475,
+    "success_target": 0.5,
+    "target_met": false,
+    "latency_target_met": true
+  },
+  {
+    "variant": "grids_film",
+    "status": "complete",
+    "mean_success_rate": 0.037500000000000006,
+    "seed_rates": [
+      0.05,
+      0.025
+    ],
+    "between_seed_sample_std": 0.01767766952966369,
+    "success_target": 0.5,
+    "target_met": false,
+    "latency_target_met": true
+  },
+  {
+    "variant": "uniform",
+    "status": "complete",
+    "mean_success_rate": 0.125,
+    "seed_rates": [
+      0.15,
+      0.1
+    ],
+    "between_seed_sample_std": 0.03535533905932737,
+    "success_target": 0.5,
+    "target_met": false,
+    "latency_target_met": true
+  },
+  {
+    "variant": "vision_only",
+    "status": "complete",
+    "mean_success_rate": 0.0375,
+    "seed_rates": [
+      0.075,
+      0.0
+    ],
+    "between_seed_sample_std": 0.053033008588991064,
+    "success_target": 0.5,
+    "target_met": false,
+    "latency_target_met": true
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "protocol_sha256": "ac3ed611fc75450aa48a7d6b4f6369d04af641fe886897760db3592ece955dab",
+  "success_target": 0.5,
+  "target_justification": "Pilot project target: complete at least half of held-out rollouts on average across the two tasks; fixed before final testing.",
+  "checkpoints": [
+    {
+      "path": "runs/grids_film_seed1_20261117T212956_979682Z/best_model.pt",
+      "sha256": "08fc4f572c0bf81f596cd0574706614927c8475664129bd55fef6b6772382543",
+      "variant": "grids_film",
+      "training_seed": 1,
+      "selected_epoch": 9,
+      "validation_mse": 0.613483181844155,
+      "budget": [
+        10,
+        32,
+        0.001
+      ]
+    },
+    {
+      "path": "runs/dense_seed1_20261117T211813_215453Z/best_model.pt",
+      "sha256": "2645d12bf4ef338978a7dcbb9b2498867d73c9cc3363a6e81542c5eda07da14b",
+      "variant": "dense",
+      "training_seed": 1,
+      "selected_epoch": 10,
+      "validation_mse": 0.6421160671032138,
+      "budget": [
+        10,
+        32,
+        0.001
+      ]
+    },
+    {
+      "path": "runs/uniform_seed0_20261117T212318_683813Z/best_model.pt",
+      "sha256": "e8d51e03cdcc8c47019cfc26845e436af364536cf1f1307c4699fb68f88d06ff",
+      "variant": "uniform",
+      "training_seed": 0,
+      "selected_epoch": 10,
+      "validation_mse": 0.5764545529252953,
+      "budget": [
+        10,
+        32,
+        0.001
+      ]
+    },
+    {
+      "path": "runs/grids_seed0_20261117T212203_540220Z/best_model.pt",
+      "sha256": "fea5d3a069d064f8283971c61f7351d4daec59f49e62d039fc9e78ad4f4d8974",
+      "variant": "grids",
+      "training_seed": 0,
+      "selected_epoch": 9,
+      "validation_mse": 0.5080180598629845,
+      "budget": [
+        10,
+        32,
+        0.001
+      ]
+    },
+    {
+      "path": "runs/dense_seed0_20261117T211545_858127Z/best_model.pt",
+      "sha256": "22068244a513c47b28e9c3fc393632a5d6910d493bf824781e57e85352442607",
+      "variant": "dense",
+      "training_seed": 0,
+      "selected_epoch": 9,
+      "validation_mse": 0.619675495972236,
+      "budget": [
+        10,
+        32,
+        0.001
+      ]
+    },
+    {
+      "path": "runs/grids_seed1_20261117T212424_721238Z/best_model.pt",
+      "sha256": "1b47ca84bfb8eca8605cc6804b5a9d17b6b5a4933ea712253cd641edf5cc462f",
+      "variant": "grids",
+      "training_seed": 1,
+      "selected_epoch": 10,
+      "validation_mse": 0.5040738909608788,
+      "budget": [
+        10,
+        32,
+        0.001
+      ]
+    },
+    {
+      "path": "runs/uniform_seed1_20261117T212534_924986Z/best_model.pt",
+      "sha256": "2d28a167f96acdce13a4a4839c0f33f57208e21488b912e43872068e8e43fcac",
+      "variant": "uniform",
+      "training_seed": 1,
+      "selected_epoch": 10,
+      "validation_mse": 0.6289980589515634,
+      "budget": [
+        10,
+        32,
+        0.001
+      ]
+    },
+    {
+      "path": "runs/grids_film_seed0_20261117T212845_384875Z/best_model.pt",
+      "sha256": "c5932a9ae8b7d1437eeede94fc17d0913a57c944147e999e7599e58a60ec8727",
+      "variant": "grids_film",
+      "training_seed": 0,
+      "selected_epoch": 9,
+      "validation_mse": 0.517944386228919,
+      "budget": [
+        10,
+        32,
+        0.001
+      ]
+    },
+    {
+      "path": "runs/vision_only_seed0_20261117T213106_238623Z/best_model.pt",
+      "sha256": "ffbbc1f359da22e4ae4c441bd5440bb2f5a023829e80a55e13376acfc1f1d583",
+      "variant": "vision_only",
+      "training_seed": 0,
+      "selected_epoch": 10,
+      "validation_mse": 0.6162079601652093,
+      "budget": [
+        10,
+        32,
+        0.001
+      ]
+    },
+    {
+      "path": "runs/vision_only_seed1_20261117T213210_698169Z/best_model.pt",
+      "sha256": "ae1de3b300e74174daa4726112c155478e90cb209fce3b002596d90ed5e30d13",
+      "variant": "vision_only",
+      "training_seed": 1,
+      "selected_epoch": 10,
+      "validation_mse": 0.6557108188668886,
+      "budget": [
+        10,
+        32,
+        0.001
+      ]
+    }
+  ],
+  "selection_rule": "Lowest validation MSE within each chosen run; choose runs using validation only."
+}

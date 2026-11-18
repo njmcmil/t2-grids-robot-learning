@@ -1,0 +1,9 @@
+{
+  "selected_epoch": 9,
+  "validation_mse": 0.517944386228919,
+  "per_task": {
+    "put_the_bowl_on_the_plate": 0.5507465212369783,
+    "put_the_bowl_on_the_stove": 0.4860409371497441
+  },
+  "checkpoint_reload_verified": true
+}

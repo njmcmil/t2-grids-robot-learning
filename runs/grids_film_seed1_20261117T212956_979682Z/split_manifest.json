@@ -1,0 +1,435 @@
+{
+  "counts": {
+    "test": {
+      "put_the_bowl_on_the_plate": {
+        "episodes": 6,
+        "usable_pairs": 579
+      },
+      "put_the_bowl_on_the_stove": {
+        "episodes": 6,
+        "usable_pairs": 573
+      }
+    },
+    "train": {
+      "put_the_bowl_on_the_plate": {
+        "episodes": 28,
+        "usable_pairs": 2600
+      },
+      "put_the_bowl_on_the_stove": {
+        "episodes": 28,
+        "usable_pairs": 2842
+      }
+    },
+    "validation": {
+      "put_the_bowl_on_the_plate": {
+        "episodes": 6,
+        "usable_pairs": 568
+      },
+      "put_the_bowl_on_the_stove": {
+        "episodes": 6,
+        "usable_pairs": 584
+      }
+    }
+  },
+  "grouping_limitation": "This does not establish collection-session independence or identify every semantically similar configuration.",
+  "grouping_rule": "Initial simulator position configuration, excluding time and velocities, rounded to four decimal places.",
+  "initial_state_groups": {
+    "put_the_bowl_on_the_plate": {
+      "demo_0": "1b18cb585a512b5b4ac6c8fedf68830e41c4fad47f448b8316ca9228a11ac3d8",
+      "demo_1": "46b6f0330744ea367fdba9b46e563560100e5bcc311180352d7da057cb9edda4",
+      "demo_10": "29e0b4bc29d64ff58a3980221a94dab9811d9d1129abcefeb2ba45e68c124925",
+      "demo_11": "741182c50f5cdd39a1d21620575dcbed5322f2aceccd15a87f9e00aa4556065f",
+      "demo_12": "2e57cafb614313991c2ebc8626f1c4b03e477823cabb064f7dfa401dd31a4d2c",
+      "demo_13": "51fb4cffa9bb5acb5b24c54dcea226df944fb5e8fc4aeacd3f921c1341203b97",
+      "demo_14": "0efd03725b65d6b855331cefb890b71f85a21261e09ccfe4e771179511837d85",
+      "demo_15": "44ecf852e4f73095dd665cc98bcb4d54eb2af7ab55b15368ccf454a342f4e04a",
+      "demo_16": "c851b984c70fb155958f6d24ea8351deeb2bce0c983323fea2f7d2f89ff6be79",
+      "demo_17": "fe10f7997143fb2a1577259ca14a41eb590290ab4189f9efdca31d25a38e87f8",
+      "demo_18": "e8077338da97bcfb136373a96aaf05566c2ff0c84534d5eb2601d4ca7b5b5240",
+      "demo_19": "0c7857556f84c03d086dc25d056069aee6fc0b2176df25f5892f504152ee4c6d",
+      "demo_2": "f8d66d46d95ae5e68b0f0a60121519a58c8b0238ef01079836814ebad1d1fd8f",
+      "demo_20": "13be30a13ef367abcc5773ac7dcaf5c2ebeed38ae4831a50ab6d11e97fee419a",
+      "demo_21": "c40086b24b94755a8cfbeb49fde291521fd142b9c415ea380b16a53a53aef297",
+      "demo_22": "4d7cf0663492e3f820ce4a8e2f48c909816997d1e3a90248b74c8869531d1133",
+      "demo_23": "48517211a368823270bc3563fddc6326c645acc76927dd47de751c1449639f84",
+      "demo_24": "844ddfe3d26a1a1c52601b407620e347bf4efab604b19ca339f0926baceb0a75",
+      "demo_25": "6e39e6dbc3c61e21f0c761fdf3751501552aa4d1501134f4115aacb5c1b14498",
+      "demo_26": "b602dfe203b301158fac9cac6d11d85bbecb80e71fbd1e5eba353659ffc706f3",
+      "demo_27": "5b48219e8e33ea45332b11594eda13c1d59b51ef4a4a4cdd371caef69a8cd6df",
+      "demo_28": "de21d40a9e01dca891fa61bdde077311ef46f2fbc53a113ef3b0bd74d9ddf8e9",
+      "demo_29": "99fa447e02ae77c5dc64571cb28416ab0f7147a4e474189b38c4d0160602262a",
+      "demo_3": "bd8c8513aa1c03833d6240cf07be385ee32b092839f057ac7592c706826ddc1c",
+      "demo_30": "b96d790991084ce2d04fefab056fba68bfed0bda799646aab6229df26ff4f825",
+      "demo_31": "ac5c74c7d68a6d0236c1b0cf4c28073524130e247ec32449df6c1b660dc373f5",
+      "demo_32": "23f2abffb35f45829675efdd65da69596dcea917522321210e2e2c2cc89b9301",
+      "demo_33": "dfc3b7bd192118933e87503353b4af90fa7f32bfa9df432cfe0b70cd952eb555",
+      "demo_34": "0ba39653404ba1802d6dc340e07344bc11e0bf3524c330f63393153d4d2433fc",
+      "demo_35": "d9fcca0724f18e0161195ec9536211326f5bff672e672e6419380820babc33b1",
+      "demo_36": "0fc9f808644352f806ae45a1e3fda8b0edb92ae1979f203bdf7a845f4ff95ebc",
+      "demo_37": "72ae17f23753ec0973a62cbfaf7728238010e6ffc7cdec491a457238261e59b4",
+      "demo_38": "4e43f1768099be59b72955cb5f627ae0e7ec3b82746cc345f380fab807e7e194",
+      "demo_39": "f70f45f1bc2f0da464a4b491f801d3bdd2c1c18c45bf867939619cbd585e2a84",
+      "demo_4": "8f8eeb8977241002c78a7303fd79287665e0115eb2ebe5d6170deb1e2acae7c0",
+      "demo_40": "ae127181a80147fd539fb725e0e92b9c7c7a2c8def060866af8e4823bf5b0525",
+      "demo_41": "2b537782ab8bd42a59dad147c098120b13c151b3b02ab724270f8900ee07933b",
+      "demo_42": "0f18cc827851ce9c13679482795a0b631881a805a0c969f4d7cb3d1f773d4adf",
+      "demo_43": "6edbc09b4225b3f6ba4951b5def091de4e368f0bb772af35293dedbdaf4929e5",
+      "demo_44": "c72126520436b0d2148c84d5dd2a1e07b3186ef51faa6079d788c11546556d0e",
+      "demo_45": "9d19a24102215bacdea9a7b11d61687031932ff69086d51594525cb9d113b984",
+      "demo_46": "1c5b3b68ac7068905c6955a0d80a63fe5b4b527e49c0416fc45a96de284294e1",
+      "demo_47": "f3279ceec5df7291c3f85aa75643d37cfab1359bc56c3349c6d06fcc470af584",
+      "demo_48": "47337b2c295c977218d73489845d6268cd321db10e98a69dbbc2e9bfcc01d47c",
+      "demo_49": "a25f12213b10f7f8b0d945b60f8502837e573c48d31f041a31773e1d5e926de7",
+      "demo_5": "3fa0cba0c378370bf81bf9820e2bbd68759b4d19128cdd211e6b1bd36b7434de",
+      "demo_6": "8c16e92424dd0487f359aafc1cc7e0ba8b5147795315061e23414fa9be024f90",
+      "demo_7": "c69366a0cd919c2136d9f3861a93be2d43cbd3ce7f6a35fe697596fca83a7d62",
+      "demo_8": "c11f27e8624f55f72052105a7b9b2f3ddd9ad8d22371989bac908ec292ad24d9",
+      "demo_9": "8537fb5e22b4b0399dfc33121ce9e1a825d9b77dbdbc03b3b37982aca5c9a0b9"
+    },
+    "put_the_bowl_on_the_stove": {
+      "demo_0": "58bf3e8065e5447a2de6303ec36aed199263274c34243e72dccfa532a65461f3",
+      "demo_1": "5504649da98f65fcd98942226e252919c745c567821f0668f576800718a37692",
+      "demo_10": "b9942d3f962e7605d533c63f9120456200558b58271c76026c59a365bfc0a53a",
+      "demo_11": "1f2cf66a1665064f55529fa544a695702acbce24e9d23fe4c80a62252159748c",
+      "demo_12": "c4e9b69579ae300092a7d0c5df59ac0e8304cecb8197fa3bc5c00761fa61ad8f",
+      "demo_13": "0ba1e56c2d1768df8c2bb3ea00c807ba2efc44a73ba1f53034b9ef7502d3efea",
+      "demo_14": "82a622cb48c22c0e20001756415b21504018c39ef3de347cfdf2dbb7c12ac51c",
+      "demo_15": "c2e7d381f1842bf3c95590f0e0c5ea64e88a8aaa3ee12c386e7dad753d474948",
+      "demo_16": "7f2eb9bf43b22e0d857eb8a71f4b046afcd387ff50ace54bb293fc3348d24b51",
+      "demo_17": "ba6bda773b628927e3d71036ab023331f02111818ddf2bbaeb69ba5f46addb95",
+      "demo_18": "3c3b59f05e316530a90059b79d177146cf4c0e5dad5cb726e9b5079c035aeef8",
+      "demo_19": "0069b23ce87add403781d88a226a37736a3d7d88c4d169d00d90df1f4dc6f110",
+      "demo_2": "b1b0137c1d027c0ab9968ef0ada8169aabfad36b43381a12dc987c4dc259d702",
+      "demo_20": "779070d2a74b27b6ad082823cd334a96277059479519590a23412293b4e86e68",
+      "demo_21": "23ec147e53635619121abc436e9cae78d66eacd1478a81ffd125f35ec872a893",
+      "demo_22": "0399b2fa9cc3af489dd8e4f319563e5d33da80a009b00789a2307c8d9ce514b3",
+      "demo_23": "530c10cf02592590fb95e64788cc71cae2e835cdb0b3d22e56220d8aaff2d5e7",
+      "demo_24": "bb5af07c6ed083f8929780e18c6dd52685b763ff4ad9a1c74c575de5bde2e6ae",
+      "demo_25": "550adcc273797a01534d1544f6efa4c14b64f68b6a643855e67f7c58cec4925a",
+      "demo_26": "e1eb9b515ac93b478fc564ca6e68654f44b9b6d842feae3914cbfef43b0d2747",
+      "demo_27": "711410e02cfaec68bcf389792e1ff77bf33260cb178552f0896c81a64d944a83",
+      "demo_28": "36be0833bc368c1ff137dd07eca48d7d1916e6b32675c47f2c3c59ee20e0d5e7",
+      "demo_29": "46b77e8d834000e530acdcf7c8a08f8a3c4d4146176b72ad3e0e67e8126ced97",
+      "demo_3": "8df466aa796e8ed9ba0c99a27795af8e294be61742b806b80d7fbb705443ea4b",
+      "demo_30": "7bc385d6d89f8a63ceef3d49fffa52af6f8dc87b61b5c286577aa6bd68e42142",
+      "demo_31": "f0f338fb28ba4d3d968ffe7ef599e54413160a378363045c56831565bdaa522a",
+      "demo_32": "07a9900c9324d949af6e85ccf8f48f2c6d96bd4392217513c7c9ec9a6139adcf",
+      "demo_33": "06f295b2af57ada24546edd28f9915571fa6c2aabc1e3666026c41d5c9fbf62c",
+      "demo_34": "879ff1fe6efc8a6a3aae87b40440b70536405f80e03fe5c6b985189c0ee48344",
+      "demo_35": "4ffbb7345a8e5f78588bfad12060ec93c0a1d69f264589c5902cb8afc076f427",
+      "demo_36": "12da48b03f4aa86d293f58889141b187f58370718b6fc68745b50986a0ffa0ae",
+      "demo_37": "2875d11bab28a802284592952db0d2b183f84dcbf20e95f52f42c28d12d967db",
+      "demo_38": "67ebd36298b15340d26a8dcef9e2e73799e20a8e69fdbee41b02217211a61e7b",
+      "demo_39": "69e4cf7ec832bf87e4aa9100e6b038da825ed175d1da02546e7c442a00cb16f9",
+      "demo_4": "a6b129cc4bdd3dea74d410508438fc8d2759cb0fb12da201e6bd9f61d2ffde63",
+      "demo_40": "92b3c3b2646d21a328ead436b06c4b058bbeb7f5cb9c454ca69dfa110eeb0c65",
+      "demo_41": "51e02257ca37903ee8e36a3d878e124f9787b823dae4e3bdde9b7f6f9c1ca784",
+      "demo_42": "1c910e4357ed048a7afda3a6fc80914c2474f18a2b2ccbab4291a2af3c4faa51",
+      "demo_43": "6708fab09dfa616f87e1f821cdb69a6013d0e676d680788a6b3c768cc0620395",
+      "demo_44": "c6df3a005bbdf97b4775c57ae884023a76778965581b0ffe0ad8fb21fd3132a1",
+      "demo_45": "e58b9d71518e970701b909427f12326ac67a04d91313163858f16b922d38320e",
+      "demo_46": "8a523eb9c9a96a58f11daa48152ed0500b026d45dae954fb01b8fb55ef1f44c1",
+      "demo_47": "0a491843976d3de97b75413e015150e3a28586467a22d867d933666547698f4a",
+      "demo_48": "571fde042674fb30fce9f3e47af1ccac3f03e05d8a2a616d98b26e16820e3bb9",
+      "demo_49": "5d2a436cb7cb739e869bfc130e5e8033c3c645b1e7c2dab8e1bbcdc87f98fe51",
+      "demo_5": "79aefea73d4f7971dc0caa5b5b15c963d828d520aee935098d15d560a3a3265a",
+      "demo_6": "006ed65c9d3cd771aba38caeaff5c0e49a4fd865a2e0f9e4ad93e1218363e028",
+      "demo_7": "ed72aca7a10922022c1a6f0465fcd7d1190b544511d5ec504000bc75cfa2d891",
+      "demo_8": "0e43f7cceea7f9a2f5a6973fcfa27b5742ff0c7decfd291251c6f481e47682f8",
+      "demo_9": "023192d3e0d3806f8c3247eea9fb612ef468244e53e76dfb4422255cef43ac8d"
+    }
+  },
+  "preprocessing": {
+    "action_normalization": "training-only mean and scale",
+    "action_target": "actions[t + 1] for observation[t]",
+    "cameras": [
+      "agentview_rgb",
+      "eye_in_hand_rgb"
+    ],
+    "excluded_data": "final observation and first action",
+    "image_dtype": "float32",
+    "image_layout": "CHW",
+    "image_orientation": "preserve stored OpenGL orientation",
+    "image_scaling": "divide by 255",
+    "resize": null
+  },
+  "seed": 42,
+  "source": {
+    "dataset": "LIBERO-Goal simulated demonstrations",
+    "download_location": "https://huggingface.co/datasets/yifengzhu-hf/LIBERO-datasets"
+  },
+  "splits": {
+    "test": {
+      "put_the_bowl_on_the_plate": [
+        "demo_43",
+        "demo_6",
+        "demo_11",
+        "demo_22",
+        "demo_19",
+        "demo_35"
+      ],
+      "put_the_bowl_on_the_stove": [
+        "demo_5",
+        "demo_26",
+        "demo_32",
+        "demo_22",
+        "demo_45",
+        "demo_10"
+      ]
+    },
+    "train": {
+      "put_the_bowl_on_the_plate": [
+        "demo_5",
+        "demo_25",
+        "demo_20",
+        "demo_49",
+        "demo_39",
+        "demo_27",
+        "demo_47",
+        "demo_45",
+        "demo_46",
+        "demo_17",
+        "demo_37",
+        "demo_31",
+        "demo_40",
+        "demo_23",
+        "demo_18",
+        "demo_7",
+        "demo_4",
+        "demo_38",
+        "demo_29",
+        "demo_24",
+        "demo_34",
+        "demo_9",
+        "demo_28",
+        "demo_21",
+        "demo_26",
+        "demo_41",
+        "demo_16",
+        "demo_42"
+      ],
+      "put_the_bowl_on_the_stove": [
+        "demo_34",
+        "demo_18",
+        "demo_37",
+        "demo_48",
+        "demo_11",
+        "demo_0",
+        "demo_24",
+        "demo_30",
+        "demo_28",
+        "demo_16",
+        "demo_20",
+        "demo_38",
+        "demo_36",
+        "demo_2",
+        "demo_46",
+        "demo_47",
+        "demo_19",
+        "demo_6",
+        "demo_8",
+        "demo_14",
+        "demo_15",
+        "demo_4",
+        "demo_9",
+        "demo_25",
+        "demo_21",
+        "demo_35",
+        "demo_33",
+        "demo_13"
+      ]
+    },
+    "validation": {
+      "put_the_bowl_on_the_plate": [
+        "demo_32",
+        "demo_15",
+        "demo_3",
+        "demo_44",
+        "demo_30",
+        "demo_10"
+      ],
+      "put_the_bowl_on_the_stove": [
+        "demo_27",
+        "demo_43",
+        "demo_44",
+        "demo_3",
+        "demo_7",
+        "demo_23"
+      ]
+    }
+  },
+  "tasks": {
+    "put_the_bowl_on_the_plate": {
+      "available_episodes": 50,
+      "file": "LIBERO/libero/datasets/libero_goal/put_the_bowl_on_the_plate_demo.hdf5",
+      "image_convention": "opengl",
+      "language_instruction": "put the bowl on the plate",
+      "recorded_environment": {
+        "bddl_file": "chiliocosm/bddl_files/libero_goal/put_the_bowl_on_the_plate.bddl",
+        "env_kwargs": {
+          "bddl_file_name": "chiliocosm/bddl_files/libero_goal/put_the_bowl_on_the_plate.bddl",
+          "camera_depths": false,
+          "camera_heights": 128,
+          "camera_names": [
+            "robot0_eye_in_hand",
+            "agentview"
+          ],
+          "camera_segmentations": null,
+          "camera_widths": 128,
+          "control_freq": 20,
+          "controller_configs": {
+            "control_delta": true,
+            "damping_ratio": 1,
+            "damping_ratio_limits": [
+              0,
+              10
+            ],
+            "impedance_mode": "fixed",
+            "input_max": 1,
+            "input_min": -1,
+            "interpolation": null,
+            "kp": 150,
+            "kp_limits": [
+              0,
+              300
+            ],
+            "orientation_limits": null,
+            "output_max": [
+              0.05,
+              0.05,
+              0.05,
+              0.5,
+              0.5,
+              0.5
+            ],
+            "output_min": [
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.5,
+              -0.5,
+              -0.5
+            ],
+            "position_limits": null,
+            "ramp_ratio": 0.2,
+            "type": "OSC_POSE",
+            "uncouple_pos_ori": true
+          },
+          "has_offscreen_renderer": true,
+          "has_renderer": false,
+          "ignore_done": true,
+          "reward_shaping": true,
+          "robots": [
+            "Panda"
+          ],
+          "use_camera_obs": true
+        },
+        "env_name": "Libero_Tabletop_Manipulation",
+        "problem_name": "libero_tabletop_manipulation",
+        "type": 1
+      }
+    },
+    "put_the_bowl_on_the_stove": {
+      "available_episodes": 50,
+      "file": "LIBERO/libero/datasets/libero_goal/put_the_bowl_on_the_stove_demo.hdf5",
+      "image_convention": "opengl",
+      "language_instruction": "put the bowl on the stove",
+      "recorded_environment": {
+        "bddl_file": "chiliocosm/bddl_files/libero_goal/put_the_bowl_on_the_stove.bddl",
+        "env_kwargs": {
+          "bddl_file_name": "chiliocosm/bddl_files/libero_goal/put_the_bowl_on_the_stove.bddl",
+          "camera_depths": false,
+          "camera_heights": 128,
+          "camera_names": [
+            "robot0_eye_in_hand",
+            "agentview"
+          ],
+          "camera_segmentations": null,
+          "camera_widths": 128,
+          "control_freq": 20,
+          "controller_configs": {
+            "control_delta": true,
+            "damping_ratio": 1,
+            "damping_ratio_limits": [
+              0,
+              10
+            ],
+            "impedance_mode": "fixed",
+            "input_max": 1,
+            "input_min": -1,
+            "interpolation": null,
+            "kp": 150,
+            "kp_limits": [
+              0,
+              300
+            ],
+            "orientation_limits": null,
+            "output_max": [
+              0.05,
+              0.05,
+              0.05,
+              0.5,
+              0.5,
+              0.5
+            ],
+            "output_min": [
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.5,
+              -0.5,
+              -0.5
+            ],
+            "position_limits": null,
+            "ramp_ratio": 0.2,
+            "type": "OSC_POSE",
+            "uncouple_pos_ori": true
+          },
+          "has_offscreen_renderer": true,
+          "has_renderer": false,
+          "ignore_done": true,
+          "reward_shaping": true,
+          "robots": [
+            "Panda"
+          ],
+          "use_camera_obs": true
+        },
+        "env_name": "Libero_Tabletop_Manipulation",
+        "problem_name": "libero_tabletop_manipulation",
+        "type": 1
+      }
+    }
+  },
+  "unused_episodes": {
+    "put_the_bowl_on_the_plate": [
+      "demo_0",
+      "demo_12",
+      "demo_14",
+      "demo_48",
+      "demo_2",
+      "demo_36",
+      "demo_33",
+      "demo_1",
+      "demo_13",
+      "demo_8"
+    ],
+    "put_the_bowl_on_the_stove": [
+      "demo_29",
+      "demo_31",
+      "demo_1",
+      "demo_49",
+      "demo_17",
+      "demo_39",
+      "demo_41",
+      "demo_12",
+      "demo_40",
+      "demo_42"
+    ]
+  },
+  "verification": {
+    "array_shapes": true,
+    "autonomous_observation_action_compatibility": "pending",
+    "initial_group_overlap": false,
+    "timing_max_joint_error": 0.0
+  }
+}

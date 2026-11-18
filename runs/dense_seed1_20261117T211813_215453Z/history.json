@@ -1,0 +1,102 @@
+[
+  {
+    "epoch": 1,
+    "train_mse": 0.9742280055126343,
+    "validation_mse": 1.003542004360093,
+    "validation_by_task": {
+      "put_the_bowl_on_the_plate": 1.0261581384012817,
+      "put_the_bowl_on_the_stove": 0.9815454880311473
+    },
+    "seconds": 10.103362860999823
+  },
+  {
+    "epoch": 2,
+    "train_mse": 0.972549844208731,
+    "validation_mse": 0.9970814941657914,
+    "validation_by_task": {
+      "put_the_bowl_on_the_plate": 1.016783985925812,
+      "put_the_bowl_on_the_stove": 0.9779188017781875
+    },
+    "seconds": 7.8050766619999195
+  },
+  {
+    "epoch": 3,
+    "train_mse": 0.9253941379194529,
+    "validation_mse": 0.902311840818988,
+    "validation_by_task": {
+      "put_the_bowl_on_the_plate": 0.9538037319877513,
+      "put_the_bowl_on_the_stove": 0.8522306743128966
+    },
+    "seconds": 7.4871109670002625
+  },
+  {
+    "epoch": 4,
+    "train_mse": 0.8583912569475016,
+    "validation_mse": 0.8636029991838667,
+    "validation_by_task": {
+      "put_the_bowl_on_the_plate": 0.917340477580913,
+      "put_the_bowl_on_the_stove": 0.8113377820827985
+    },
+    "seconds": 8.510057239000162
+  },
+  {
+    "epoch": 5,
+    "train_mse": 0.7727016723142832,
+    "validation_mse": 0.8080678776734405,
+    "validation_by_task": {
+      "put_the_bowl_on_the_plate": 0.8822915182501393,
+      "put_the_bowl_on_the_stove": 0.7358777661367689
+    },
+    "seconds": 7.396079992999603
+  },
+  {
+    "epoch": 6,
+    "train_mse": 0.7133616639690686,
+    "validation_mse": 0.719011346085204,
+    "validation_by_task": {
+      "put_the_bowl_on_the_plate": 0.7839282194322998,
+      "put_the_bowl_on_the_stove": 0.6558730038176355
+    },
+    "seconds": 7.671376144000078
+  },
+  {
+    "epoch": 7,
+    "train_mse": 0.6693502911440111,
+    "validation_mse": 0.6906310820745097,
+    "validation_by_task": {
+      "put_the_bowl_on_the_plate": 0.7510714254401047,
+      "put_the_bowl_on_the_stove": 0.6318466468516432
+    },
+    "seconds": 7.053573615000005
+  },
+  {
+    "epoch": 8,
+    "train_mse": 0.6374034525409686,
+    "validation_mse": 0.6885428267220656,
+    "validation_by_task": {
+      "put_the_bowl_on_the_plate": 0.7149758151745502,
+      "put_the_bowl_on_the_stove": 0.6628340008215698
+    },
+    "seconds": 7.047357967999687
+  },
+  {
+    "epoch": 9,
+    "train_mse": 0.6123761335022964,
+    "validation_mse": 0.6633158798019091,
+    "validation_by_task": {
+      "put_the_bowl_on_the_plate": 0.6912613015254618,
+      "put_the_bowl_on_the_stove": 0.6361360803361319
+    },
+    "seconds": 7.0679928700001255
+  },
+  {
+    "epoch": 10,
+    "train_mse": 0.5876358492503224,
+    "validation_mse": 0.6421160671032138,
+    "validation_by_task": {
+      "put_the_bowl_on_the_plate": 0.673760551408353,
+      "put_the_bowl_on_the_stove": 0.6113385391176027
+    },
+    "seconds": 7.381225186000393
+  }
+]

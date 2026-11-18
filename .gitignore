@@ -13,3 +13,6 @@ checkpoints/
 *.pt
 *.pth
 *.ckpt
+
+# Small diagnostic runs are not experiment results.
+smoke_runs/

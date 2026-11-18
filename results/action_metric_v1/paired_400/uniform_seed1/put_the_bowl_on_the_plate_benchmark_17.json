@@ -1,0 +1,27 @@
+{
+  "case_id": "put_the_bowl_on_the_plate_benchmark_17",
+  "task": "put_the_bowl_on_the_plate",
+  "seed": 2041,
+  "success": true,
+  "steps": 71,
+  "query_ms": [
+    4.694778999692062,
+    3.31931400069152,
+    3.6438690003706142,
+    3.2848290029505733,
+    3.7500520011235494,
+    3.3430200019211043,
+    3.5649650017148815,
+    3.5330850005266257,
+    3.9983850001590326
+  ],
+  "tokens_per_camera": 16,
+  "identity": {
+    "checkpoint": "2d28a167f96acdce13a4a4839c0f33f57208e21488b912e43872068e8e43fcac",
+    "protocol": "ac3ed611fc75450aa48a7d6b4f6369d04af641fe886897760db3592ece955dab",
+    "implementation": "4132b02290d5977acad3d65fa10bc920094902f9b87f20e8d3fc6ec02ec96980",
+    "manifest": "9b20dbbc186b5bbeea8b1038eb21da30331e3b27210eab601e14c1d3ee18b65f"
+  },
+  "variant": "uniform",
+  "training_seed": 1
+}

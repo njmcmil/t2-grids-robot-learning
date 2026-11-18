@@ -1,0 +1,19 @@
+{
+  "selected_epoch": 7,
+  "overall_validation_mse": 0.4149963864021831,
+  "per_task": {
+    "put_the_bowl_on_the_plate": {
+      "examples": 568,
+      "model_mse": 0.4416804254932003,
+      "constant_training_mean_mse": 1.0513045414532693
+    },
+    "put_the_bowl_on_the_stove": {
+      "examples": 584,
+      "model_mse": 0.3890433837686995,
+      "constant_training_mean_mse": 1.00495113196205
+    }
+  },
+  "metric": "MSE on training-normalized action targets",
+  "split": "validation",
+  "manifest_sha256": "9b20dbbc186b5bbeea8b1038eb21da30331e3b27210eab601e14c1d3ee18b65f"
+}

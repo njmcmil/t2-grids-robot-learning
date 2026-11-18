@@ -1,0 +1,30 @@
+{
+  "variant": "vision_only",
+  "purpose": "10-epoch pilot",
+  "training_seed": 0,
+  "epochs": 10,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "loss": "MSE on normalized actions",
+  "cameras": [
+    "agentview_rgb",
+    "eye_in_hand_rgb"
+  ],
+  "encoder_channels": [
+    16,
+    32,
+    64
+  ],
+  "pool_shape": [
+    4,
+    4
+  ],
+  "head_hidden_size": 256,
+  "action_size": 7,
+  "manifest_sha256": "9b20dbbc186b5bbeea8b1038eb21da30331e3b27210eab601e14c1d3ee18b65f",
+  "training_examples": 5442,
+  "validation_examples": 1152,
+  "torch_version": "2.14.1+cu130",
+  "device": "cuda"
+}

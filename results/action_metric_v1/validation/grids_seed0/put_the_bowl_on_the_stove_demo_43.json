@@ -1,0 +1,28 @@
+{
+  "case_id": "put_the_bowl_on_the_stove_demo_43",
+  "task": "put_the_bowl_on_the_stove",
+  "seed": 0,
+  "success": true,
+  "steps": 78,
+  "query_ms": [
+    3.259152999817161,
+    3.32228200204554,
+    3.445747002842836,
+    3.8121319994388614,
+    3.6654769974120427,
+    3.435465001530247,
+    3.4987800027010962,
+    3.33948700063047,
+    3.7538559990935028,
+    5.489139999554027
+  ],
+  "tokens_per_camera": 16,
+  "identity": {
+    "checkpoint": "fea5d3a069d064f8283971c61f7351d4daec59f49e62d039fc9e78ad4f4d8974",
+    "protocol": "ac3ed611fc75450aa48a7d6b4f6369d04af641fe886897760db3592ece955dab",
+    "implementation": "4132b02290d5977acad3d65fa10bc920094902f9b87f20e8d3fc6ec02ec96980",
+    "manifest": "9b20dbbc186b5bbeea8b1038eb21da30331e3b27210eab601e14c1d3ee18b65f"
+  },
+  "variant": "grids",
+  "training_seed": 0
+}
