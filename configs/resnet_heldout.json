@@ -1,0 +1,45 @@
+{
+  "declared_at": "2026-11-18T19:40:00-0500",
+  "declared_before_rollouts": true,
+  "success_metric": "fraction of rollouts with env.check_success() true",
+  "success_target": 0.2,
+  "success_target_justification": "Fixed before the 20-state rollouts. Single-step behavior cloning from 28 simulated episodes per task is not expected to solve most unseen initial states. The target is 0.20 success in each variant-task cell, which is 4 of 20 rollouts.",
+  "timeout_steps": 600,
+  "control_hz": 20,
+  "rollouts_per_task": 20,
+  "env_seed": 0,
+  "heldout_demo_ids": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "heldout_note": "Ids 30-33 were validation episodes used only to choose the epoch by validation MSE. They were not used for gradient updates. Ids 34-49 were not used for training or for weight selection. Every variant uses this list and env seed 0.",
+  "variants": [
+    "vision_bc",
+    "dense_language",
+    "vanilla_grids",
+    "grids_film",
+    "uniform_ablation"
+  ],
+  "tasks": [
+    "put the bowl on the stove",
+    "put the bowl on the plate"
+  ]
+}

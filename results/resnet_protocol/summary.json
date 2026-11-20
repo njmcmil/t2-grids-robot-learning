@@ -1,0 +1,1914 @@
+{
+  "split_seed": 42,
+  "training_seed": 0,
+  "timeout_steps": 300,
+  "rollouts_per_task": 20,
+  "success": "env.check_success",
+  "architecture": "ResNet-18 through layer3, shared transformer, one action per step",
+  "retrieval": false,
+  "variants": [
+    {
+      "variant": "vision_bc",
+      "successes": 19,
+      "rollouts": 40,
+      "success_rate": 0.475,
+      "by_task": {
+        "put the bowl on the stove": {
+          "successes": 16,
+          "rollouts": 20,
+          "rate": 0.8
+        },
+        "put the bowl on the plate": {
+          "successes": 3,
+          "rollouts": 20,
+          "rate": 0.15
+        }
+      },
+      "val_loss": 0.030010929610420185,
+      "weights": "/home/user2/resnet-review/weights/resnet_protocol/vision_bc.pt"
+    },
+    {
+      "variant": "dense_language",
+      "successes": 10,
+      "rollouts": 40,
+      "success_rate": 0.25,
+      "by_task": {
+        "put the bowl on the stove": {
+          "successes": 8,
+          "rollouts": 20,
+          "rate": 0.4
+        },
+        "put the bowl on the plate": {
+          "successes": 2,
+          "rollouts": 20,
+          "rate": 0.1
+        }
+      },
+      "val_loss": 0.03268483162719974,
+      "weights": "/home/user2/resnet-review/weights/resnet_protocol/dense_language.pt"
+    },
+    {
+      "variant": "vanilla_grids",
+      "successes": 7,
+      "rollouts": 40,
+      "success_rate": 0.175,
+      "by_task": {
+        "put the bowl on the stove": {
+          "successes": 3,
+          "rollouts": 20,
+          "rate": 0.15
+        },
+        "put the bowl on the plate": {
+          "successes": 4,
+          "rollouts": 20,
+          "rate": 0.2
+        }
+      },
+      "val_loss": 0.030585970864007155,
+      "weights": "/home/user2/resnet-review/weights/resnet_protocol/vanilla_grids.pt"
+    },
+    {
+      "variant": "grids_film",
+      "successes": 30,
+      "rollouts": 40,
+      "success_rate": 0.75,
+      "by_task": {
+        "put the bowl on the stove": {
+          "successes": 13,
+          "rollouts": 20,
+          "rate": 0.65
+        },
+        "put the bowl on the plate": {
+          "successes": 17,
+          "rollouts": 20,
+          "rate": 0.85
+        }
+      },
+      "val_loss": 0.03054427413775544,
+      "weights": "/home/user2/resnet-review/weights/resnet_protocol/grids_film.pt"
+    },
+    {
+      "variant": "uniform_ablation",
+      "successes": 9,
+      "rollouts": 40,
+      "success_rate": 0.225,
+      "by_task": {
+        "put the bowl on the stove": {
+          "successes": 8,
+          "rollouts": 20,
+          "rate": 0.4
+        },
+        "put the bowl on the plate": {
+          "successes": 1,
+          "rollouts": 20,
+          "rate": 0.05
+        }
+      },
+      "val_loss": 0.03133330231250817,
+      "weights": "/home/user2/resnet-review/weights/resnet_protocol/uniform_ablation.pt"
+    }
+  ],
+  "rollouts": [
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 32,
+      "seed": 2027,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.2240777674596757
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 45,
+      "seed": 2028,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.2490968150668778
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 30,
+      "seed": 2029,
+      "success": true,
+      "steps": 103,
+      "latency_ms": 2.3484081176823928
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 46,
+      "seed": 2030,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.497768509298718
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 3,
+      "seed": 2031,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.403120639404127
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 18,
+      "seed": 2032,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.434662686137017
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 36,
+      "seed": 2033,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.296072900062427
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 6,
+      "seed": 2034,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.342971785692498
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 12,
+      "seed": 2035,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.5232216930210902
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 9,
+      "seed": 2036,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.4047771201003343
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 5,
+      "seed": 2037,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.51287888919857
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 38,
+      "seed": 2038,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.335550019342918
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 8,
+      "seed": 2039,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.503051766155598
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 43,
+      "seed": 2040,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.4613858686643653
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 17,
+      "seed": 2041,
+      "success": true,
+      "steps": 70,
+      "latency_ms": 2.5351830296650797
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 16,
+      "seed": 2042,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.498760046243357
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 19,
+      "seed": 2043,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.472893089967935
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 11,
+      "seed": 2044,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.6223067064226293
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 25,
+      "seed": 2045,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.5988420960493386
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 47,
+      "seed": 2046,
+      "success": true,
+      "steps": 94,
+      "latency_ms": 2.5201451486630484
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 16,
+      "seed": 2027,
+      "success": true,
+      "steps": 81,
+      "latency_ms": 2.535921113671919
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 17,
+      "seed": 2028,
+      "success": true,
+      "steps": 89,
+      "latency_ms": 2.3532162362898
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 44,
+      "seed": 2029,
+      "success": true,
+      "steps": 87,
+      "latency_ms": 2.335818725619358
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 10,
+      "seed": 2030,
+      "success": true,
+      "steps": 90,
+      "latency_ms": 2.3394122545141727
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 40,
+      "seed": 2031,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.3471966438228264
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 31,
+      "seed": 2032,
+      "success": true,
+      "steps": 98,
+      "latency_ms": 2.409657735166102
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 12,
+      "seed": 2033,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.473805230886986
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 27,
+      "seed": 2034,
+      "success": true,
+      "steps": 95,
+      "latency_ms": 2.547186293859819
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 49,
+      "seed": 2035,
+      "success": true,
+      "steps": 79,
+      "latency_ms": 2.441587337717131
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 1,
+      "seed": 2036,
+      "success": true,
+      "steps": 88,
+      "latency_ms": 2.5464884079569443
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 45,
+      "seed": 2037,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.4654482929812125
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 28,
+      "seed": 2038,
+      "success": true,
+      "steps": 87,
+      "latency_ms": 2.546837965853448
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 13,
+      "seed": 2039,
+      "success": true,
+      "steps": 90,
+      "latency_ms": 2.278268778981227
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 19,
+      "seed": 2040,
+      "success": true,
+      "steps": 85,
+      "latency_ms": 2.5590649285518072
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 20,
+      "seed": 2041,
+      "success": true,
+      "steps": 101,
+      "latency_ms": 2.5388857405655787
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 43,
+      "seed": 2042,
+      "success": true,
+      "steps": 96,
+      "latency_ms": 2.412887749414949
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 25,
+      "seed": 2043,
+      "success": true,
+      "steps": 99,
+      "latency_ms": 2.275682213502193
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 4,
+      "seed": 2044,
+      "success": true,
+      "steps": 73,
+      "latency_ms": 2.432426958016362
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 6,
+      "seed": 2045,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.4714627132440605
+    },
+    {
+      "variant": "vision_bc",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 35,
+      "seed": 2046,
+      "success": true,
+      "steps": 85,
+      "latency_ms": 2.537669494460501
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 32,
+      "seed": 2027,
+      "success": true,
+      "steps": 81,
+      "latency_ms": 2.557828678910471
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 45,
+      "seed": 2028,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.4793923336740895
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 30,
+      "seed": 2029,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.5520622026912556
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 46,
+      "seed": 2030,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.2931234698626213
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 3,
+      "seed": 2031,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.560046979536613
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 18,
+      "seed": 2032,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.4725157667611106
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 36,
+      "seed": 2033,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.4073080634116195
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 6,
+      "seed": 2034,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.4623078475512252
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 12,
+      "seed": 2035,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.596164994271627
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 9,
+      "seed": 2036,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.411873271339573
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 5,
+      "seed": 2037,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.4297043496820456
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 38,
+      "seed": 2038,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.640215681361345
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 8,
+      "seed": 2039,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.5961889537090124
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 43,
+      "seed": 2040,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.531898728921078
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 17,
+      "seed": 2041,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.554020247674392
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 16,
+      "seed": 2042,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.6089778932509944
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 19,
+      "seed": 2043,
+      "success": true,
+      "steps": 93,
+      "latency_ms": 2.397940428401794
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 11,
+      "seed": 2044,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.513574863648197
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 25,
+      "seed": 2045,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.533155116737665
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 47,
+      "seed": 2046,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.5368573407952986
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 16,
+      "seed": 2027,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.414358169771731
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 17,
+      "seed": 2028,
+      "success": true,
+      "steps": 104,
+      "latency_ms": 2.403859267360531
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 44,
+      "seed": 2029,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.5537471706047654
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 10,
+      "seed": 2030,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.4797189228896364
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 40,
+      "seed": 2031,
+      "success": true,
+      "steps": 89,
+      "latency_ms": 2.3383605503215548
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 31,
+      "seed": 2032,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.500784782168921
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 12,
+      "seed": 2033,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.4557891558894576
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 27,
+      "seed": 2034,
+      "success": true,
+      "steps": 117,
+      "latency_ms": 2.4293681699185607
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 49,
+      "seed": 2035,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.44276102661388
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 1,
+      "seed": 2036,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.42219748373221
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 45,
+      "seed": 2037,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.4904429842717946
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 28,
+      "seed": 2038,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.5782946805702522
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 13,
+      "seed": 2039,
+      "success": true,
+      "steps": 96,
+      "latency_ms": 2.4359755440552058
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 19,
+      "seed": 2040,
+      "success": true,
+      "steps": 108,
+      "latency_ms": 2.398313648882322
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 20,
+      "seed": 2041,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.5473765827094517
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 43,
+      "seed": 2042,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.47922833970127
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 25,
+      "seed": 2043,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.344043025902162
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 4,
+      "seed": 2044,
+      "success": true,
+      "steps": 105,
+      "latency_ms": 2.6160398013113686
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 6,
+      "seed": 2045,
+      "success": true,
+      "steps": 121,
+      "latency_ms": 2.3578065368135204
+    },
+    {
+      "variant": "dense_language",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 35,
+      "seed": 2046,
+      "success": true,
+      "steps": 99,
+      "latency_ms": 2.3944757760013218
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 32,
+      "seed": 2027,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.0815661062176027
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 45,
+      "seed": 2028,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.073599530131711
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 30,
+      "seed": 2029,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.965351276216097
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 46,
+      "seed": 2030,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.9861861185054295
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 3,
+      "seed": 2031,
+      "success": true,
+      "steps": 77,
+      "latency_ms": 3.039512103317644
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 18,
+      "seed": 2032,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.066078780296569
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 36,
+      "seed": 2033,
+      "success": true,
+      "steps": 70,
+      "latency_ms": 3.0854184284440374
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 6,
+      "seed": 2034,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.0413838458480313
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 12,
+      "seed": 2035,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.989389902407614
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 9,
+      "seed": 2036,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.0744112859247252
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 5,
+      "seed": 2037,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.0239642770417654
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 38,
+      "seed": 2038,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.0492712600001446
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 8,
+      "seed": 2039,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.0920390440345122
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 43,
+      "seed": 2040,
+      "success": true,
+      "steps": 78,
+      "latency_ms": 3.0648182064163474
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 17,
+      "seed": 2041,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.99282090573494
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 16,
+      "seed": 2042,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.983518089846863
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 19,
+      "seed": 2043,
+      "success": true,
+      "steps": 69,
+      "latency_ms": 2.896209913002246
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 11,
+      "seed": 2044,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.9827242119548223
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 25,
+      "seed": 2045,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.896443300123792
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 47,
+      "seed": 2046,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.9722674165774756
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 16,
+      "seed": 2027,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.897583372929754
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 17,
+      "seed": 2028,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.8953866628580727
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 44,
+      "seed": 2029,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.039442403630043
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 10,
+      "seed": 2030,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.968180069098404
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 40,
+      "seed": 2031,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.933232124293378
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 31,
+      "seed": 2032,
+      "success": true,
+      "steps": 93,
+      "latency_ms": 2.9178106645998416
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 12,
+      "seed": 2033,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.9442788330682865
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 27,
+      "seed": 2034,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.860477399760081
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 49,
+      "seed": 2035,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.98002698031875
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 1,
+      "seed": 2036,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.9808139568194747
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 45,
+      "seed": 2037,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.9947936864725
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 28,
+      "seed": 2038,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.9276201305522895
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 13,
+      "seed": 2039,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.900357049657032
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 19,
+      "seed": 2040,
+      "success": true,
+      "steps": 94,
+      "latency_ms": 3.1914245637574608
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 20,
+      "seed": 2041,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.882611783085546
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 43,
+      "seed": 2042,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.9484524970757775
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 25,
+      "seed": 2043,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.990857846743893
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 4,
+      "seed": 2044,
+      "success": true,
+      "steps": 79,
+      "latency_ms": 2.9264196843392205
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 6,
+      "seed": 2045,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.0165650218259543
+    },
+    {
+      "variant": "vanilla_grids",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 35,
+      "seed": 2046,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.026729783062668
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 32,
+      "seed": 2027,
+      "success": true,
+      "steps": 65,
+      "latency_ms": 3.0177656896949676
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 45,
+      "seed": 2028,
+      "success": true,
+      "steps": 86,
+      "latency_ms": 3.0675228836751263
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 30,
+      "seed": 2029,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.2037432032908932
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 46,
+      "seed": 2030,
+      "success": true,
+      "steps": 86,
+      "latency_ms": 3.0492058593704
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 3,
+      "seed": 2031,
+      "success": true,
+      "steps": 75,
+      "latency_ms": 2.9877184804839394
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 18,
+      "seed": 2032,
+      "success": true,
+      "steps": 73,
+      "latency_ms": 3.1583217687885696
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 36,
+      "seed": 2033,
+      "success": true,
+      "steps": 73,
+      "latency_ms": 3.1105476831825936
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 6,
+      "seed": 2034,
+      "success": true,
+      "steps": 75,
+      "latency_ms": 3.265194280538708
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 12,
+      "seed": 2035,
+      "success": true,
+      "steps": 67,
+      "latency_ms": 3.109283310468934
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 9,
+      "seed": 2036,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.1866861894377507
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 5,
+      "seed": 2037,
+      "success": true,
+      "steps": 77,
+      "latency_ms": 3.1835986762428536
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 38,
+      "seed": 2038,
+      "success": true,
+      "steps": 77,
+      "latency_ms": 3.0627414412560645
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 8,
+      "seed": 2039,
+      "success": true,
+      "steps": 92,
+      "latency_ms": 3.07730098005698
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 43,
+      "seed": 2040,
+      "success": true,
+      "steps": 80,
+      "latency_ms": 3.1670999742345884
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 17,
+      "seed": 2041,
+      "success": true,
+      "steps": 109,
+      "latency_ms": 3.222274376664721
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 16,
+      "seed": 2042,
+      "success": true,
+      "steps": 98,
+      "latency_ms": 3.0280385523967976
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 19,
+      "seed": 2043,
+      "success": true,
+      "steps": 69,
+      "latency_ms": 3.261131855348746
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 11,
+      "seed": 2044,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.1073976028710604
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 25,
+      "seed": 2045,
+      "success": true,
+      "steps": 77,
+      "latency_ms": 3.2000838168110555
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 47,
+      "seed": 2046,
+      "success": true,
+      "steps": 77,
+      "latency_ms": 3.197784557131228
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 16,
+      "seed": 2027,
+      "success": true,
+      "steps": 88,
+      "latency_ms": 3.16505338725454
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 17,
+      "seed": 2028,
+      "success": true,
+      "steps": 88,
+      "latency_ms": 3.207518261412836
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 44,
+      "seed": 2029,
+      "success": true,
+      "steps": 100,
+      "latency_ms": 3.244126069766935
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 10,
+      "seed": 2030,
+      "success": true,
+      "steps": 146,
+      "latency_ms": 2.9755346853786775
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 40,
+      "seed": 2031,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.831924302930323
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 31,
+      "seed": 2032,
+      "success": true,
+      "steps": 87,
+      "latency_ms": 3.036086458910856
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 12,
+      "seed": 2033,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.0357427734998055
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 27,
+      "seed": 2034,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.0983440700219944
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 49,
+      "seed": 2035,
+      "success": true,
+      "steps": 77,
+      "latency_ms": 2.868078466105674
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 1,
+      "seed": 2036,
+      "success": true,
+      "steps": 93,
+      "latency_ms": 2.8795034947594806
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 45,
+      "seed": 2037,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 3.1814540470562256
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 28,
+      "seed": 2038,
+      "success": true,
+      "steps": 105,
+      "latency_ms": 3.2284609335918155
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 13,
+      "seed": 2039,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.987574722210411
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 19,
+      "seed": 2040,
+      "success": true,
+      "steps": 89,
+      "latency_ms": 2.837228697654006
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 20,
+      "seed": 2041,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.999216281265641
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 43,
+      "seed": 2042,
+      "success": true,
+      "steps": 90,
+      "latency_ms": 3.1711387331597507
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 25,
+      "seed": 2043,
+      "success": true,
+      "steps": 93,
+      "latency_ms": 3.0926841430701515
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 4,
+      "seed": 2044,
+      "success": true,
+      "steps": 81,
+      "latency_ms": 3.020256234226564
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 6,
+      "seed": 2045,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.885156129971923
+    },
+    {
+      "variant": "grids_film",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 35,
+      "seed": 2046,
+      "success": true,
+      "steps": 80,
+      "latency_ms": 3.0655177353764884
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 32,
+      "seed": 2027,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.8558204735357626
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 45,
+      "seed": 2028,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.83265961954991
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 30,
+      "seed": 2029,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.755468083002294
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 46,
+      "seed": 2030,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.75693847972434
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 3,
+      "seed": 2031,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.8399952101365975
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 18,
+      "seed": 2032,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.886399411945604
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 36,
+      "seed": 2033,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.758540909853764
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 6,
+      "seed": 2034,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.830687951257763
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 12,
+      "seed": 2035,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.8859987472727275
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 9,
+      "seed": 2036,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.556462626477393
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 5,
+      "seed": 2037,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.8165181961958297
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 38,
+      "seed": 2038,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.8936444595456123
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 8,
+      "seed": 2039,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.8273260799081377
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 43,
+      "seed": 2040,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.707362769773075
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 17,
+      "seed": 2041,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.7381136230542324
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 16,
+      "seed": 2042,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.703243699409844
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 19,
+      "seed": 2043,
+      "success": true,
+      "steps": 83,
+      "latency_ms": 3.004702505885612
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 11,
+      "seed": 2044,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.76366179343313
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 25,
+      "seed": 2045,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.7917963876582994
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the plate",
+      "benchmark_state_index": 47,
+      "seed": 2046,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.533131654296691
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 16,
+      "seed": 2027,
+      "success": true,
+      "steps": 181,
+      "latency_ms": 2.515514639466075
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 17,
+      "seed": 2028,
+      "success": true,
+      "steps": 119,
+      "latency_ms": 2.880413505148941
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 44,
+      "seed": 2029,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.709977342262088
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 10,
+      "seed": 2030,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.7645707009166167
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 40,
+      "seed": 2031,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.6083148480392992
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 31,
+      "seed": 2032,
+      "success": true,
+      "steps": 111,
+      "latency_ms": 2.785947260883142
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 12,
+      "seed": 2033,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.6777865834689387
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 27,
+      "seed": 2034,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.831975422547354
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 49,
+      "seed": 2035,
+      "success": true,
+      "steps": 117,
+      "latency_ms": 2.7146879145795975
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 1,
+      "seed": 2036,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.8678666974883527
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 45,
+      "seed": 2037,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.787629181984812
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 28,
+      "seed": 2038,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.749270772522626
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 13,
+      "seed": 2039,
+      "success": true,
+      "steps": 96,
+      "latency_ms": 2.9278850624905317
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 19,
+      "seed": 2040,
+      "success": true,
+      "steps": 105,
+      "latency_ms": 2.792186752915205
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 20,
+      "seed": 2041,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.7629128637878844
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 43,
+      "seed": 2042,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.7565058801944056
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 25,
+      "seed": 2043,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.865425433362058
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 4,
+      "seed": 2044,
+      "success": true,
+      "steps": 97,
+      "latency_ms": 2.673026166805882
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 6,
+      "seed": 2045,
+      "success": false,
+      "steps": 300,
+      "latency_ms": 2.649086943032065
+    },
+    {
+      "variant": "uniform_ablation",
+      "task": "put the bowl on the stove",
+      "benchmark_state_index": 35,
+      "seed": 2046,
+      "success": true,
+      "steps": 138,
+      "latency_ms": 2.652663977325732
+    }
+  ],
+  "benchmark": "seed 42, 28/6/6, 20 states, timeout 300"
+}

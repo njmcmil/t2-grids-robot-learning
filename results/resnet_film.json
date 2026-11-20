@@ -1,0 +1,46 @@
+{
+  "language_swap": {
+    "language_cosine": 0.6952903866767883,
+    "coords_max_abs": 0.024841904640197754,
+    "samples_max_abs": 0.164556622505188,
+    "coords_changed": true,
+    "samples_changed": true,
+    "encoder_frozen": true
+  },
+  "cells": [
+    {
+      "task": "put the bowl on the stove",
+      "successes": 14,
+      "rollouts": 20,
+      "success_rate": 0.7,
+      "success_target": 0.2,
+      "target_met": true,
+      "median_latency_ms": 6.523573398590088,
+      "previous_grids_film": "19/20",
+      "failure_modes": {
+        "success": 14,
+        "timeout_no_grasp": 2,
+        "timeout_displaced": 1,
+        "timeout_dropped_or_thrown": 3
+      }
+    },
+    {
+      "task": "put the bowl on the plate",
+      "successes": 10,
+      "rollouts": 20,
+      "success_rate": 0.5,
+      "success_target": 0.2,
+      "target_met": true,
+      "median_latency_ms": 6.591660976409912,
+      "previous_grids_film": "5/20",
+      "failure_modes": {
+        "success": 10,
+        "timeout_dropped_or_thrown": 4,
+        "timeout_displaced": 5,
+        "timeout_no_grasp": 1
+      }
+    }
+  ],
+  "weights": "/home/user2/resnet-review/weights/resnet_film.pt",
+  "previous_weights": "/home/user2/resnet-review/weights/resnet_heldout/grids_film.pt"
+}
